@@ -22,23 +22,23 @@ const App = () => {
       {/* Tabs */}
       <div>
         <button
-          className="tab"
-          id="Home-Tab"
-          onClick={() => setActiveTab("Home")}
+            id="Home-Tab"
+            className="tab"
+            onClick={() => setActiveTab("Home")}
         >
           Home
         </button>
         <button
-          className="tab"
-          id="About-Tab"
-          onClick={() => setActiveTab("About")}
+            id="About-Tab"
+            className="tab"
+            onClick={() => setActiveTab("About")}
         >
           About
         </button>
         <button
-          className="tab"
-          id="Features-Tab"
-          onClick={() => setActiveTab("Features")}
+            id="Features-Tab"
+            className="tab"
+            onClick={() => setActiveTab("Features")}
         >
           Features
         </button>
