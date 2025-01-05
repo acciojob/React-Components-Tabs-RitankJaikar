@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./../styles/App.css";
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("Home");
+  const [activeTab, setActiveTab] = useState("");
 
   const renderContent = () => {
     switch (activeTab) {
@@ -23,21 +23,21 @@ const App = () => {
       <div>
         <button
           className="tab"
-          id="Home-tab"
+          id="Home-Tab"
           onClick={() => setActiveTab("Home")}
         >
           Home
         </button>
         <button
           className="tab"
-          id="About-tab"
+          id="About-Tab"
           onClick={() => setActiveTab("About")}
         >
           About
         </button>
         <button
           className="tab"
-          id="Features-tab"
+          id="Features-Tab"
           onClick={() => setActiveTab("Features")}
         >
           Features
